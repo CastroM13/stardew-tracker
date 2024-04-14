@@ -1,0 +1,28 @@
+{
+  "usesTypeScript": true,
+  "usesStyledComponents": false,
+  "usesCssModule": false,
+  "cssPreprocessor": "css",
+  "testLibrary": "None",
+  "component": {
+    "default": {
+      "path": "src/components",
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    },
+    "service": {
+      "path": "src/services",
+      "customTemplates": {
+        "component": "./templates/TemplateName.service.ts"
+      }
+    },
+    "interface": {
+      "path": "src/interfaces",
+      "customTemplates": {
+        "component": "./templates/ITemplateName.interface.ts"
+      }
+    }
+  }
+}
